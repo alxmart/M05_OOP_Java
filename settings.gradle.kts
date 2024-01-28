@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "M05_OOP_Java"
 include(":app")
- 
+include(":lib")
