@@ -106,7 +106,7 @@ Kebabe Case:       jogo-mario-kart
 
  */
 
-public class Orientacao_Objetos {
+public class OrientacaoObjetos {
 
     public static void main(String[] args) {
 
