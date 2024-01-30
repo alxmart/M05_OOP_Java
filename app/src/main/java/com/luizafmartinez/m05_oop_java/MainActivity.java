@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
        /* ContaBancaria conta = new ContaBancaria();
         conta.sacar();*/
 
-        Cliente cliente = new Cliente();
+        // Cliente cliente = new Cliente();
 
     }
 

@@ -4,10 +4,23 @@ class Animal {    // Classe pai => SUPER classe
 
     String cor;
     int tamanho;
+    int quantidadePatas;
     double peso;
 
+    public Animal() {
+
+    }
+
+    public Animal(String cor,int tamanho, int qtdPatas, double peso){
+        // Validações do que foi passado
+        this.cor = cor;
+        this.tamanho = tamanho;
+        this.quantidadePatas = qtdPatas;
+        this.peso = peso;
+    }
+
     void correr() {
-        System.out.println("Correndo...");
+        System.out.println("Correr como um ");
     }
 
     void dormir() {
@@ -19,17 +32,8 @@ class Animal {    // Classe pai => SUPER classe
 /*
 abstract class Animal {  //Classe pai => Super classe, abstrata
 
-    String cor;
-    int tamanho;
-    int quantidadePatas;
-    double peso;
-
     public Animal() {
-
-    }   */
-
-
-    /*
+    }
 
     public Animal(String cor,int tamanho, int qtdPatas, double peso){
         //Validações do que foi passado
@@ -37,15 +41,5 @@ abstract class Animal {  //Classe pai => Super classe, abstrata
         this.tamanho = tamanho;
         this.quantidadePatas = qtdPatas;
         this.peso = peso;
-    }
-
-    void correr() {
-
-        System.out.println("Correr como um "); // 20 linhas fictícias
-    }
-
-    void dormir() {
-
-        System.out.println("Dormir.");
     }
 */

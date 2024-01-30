@@ -2,8 +2,22 @@ package com.luizafmartinez.lib;
 
 class Passaro extends Animal {  // Classe filha ou subclasse
 
+    public Passaro() {
+
+    }
+
+    public Passaro(String cor,int tamanho, int qtdPatas, double peso){
+        super(cor, tamanho, qtdPatas, peso);
+    }
+
     void voar() {
         System.out.println("Voando...");
+    }
+
+    @Override
+    void correr() {
+        super.correr();   // Implementação padrão
+        System.out.println("passaro com patas: " + this.quantidadePatas);
     }
 
 }
