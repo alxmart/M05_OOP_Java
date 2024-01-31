@@ -1,6 +1,6 @@
 package com.luizafmartinez.lib;
 
-class Cachorro extends Animal {  // Classe filha ou subclasse
+class Cachorro extends Animal {  // Classe filha ou subclasse, concreta
 
     // Atributos específicos para o cachorro
 
@@ -15,6 +15,7 @@ class Cachorro extends Animal {  // Classe filha ou subclasse
     }
 
     void latir() {
+
         System.out.println("Latir");
     }
 

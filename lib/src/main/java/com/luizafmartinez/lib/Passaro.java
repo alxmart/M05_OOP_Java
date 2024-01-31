@@ -1,6 +1,6 @@
 package com.luizafmartinez.lib;
 
-class Passaro extends Animal {  // Classe filha ou subclasse
+class Passaro extends Animal {  // Classe filha ou subclasse, concreta
 
     public Passaro() {
 

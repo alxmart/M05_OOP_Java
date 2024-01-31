@@ -1,6 +1,6 @@
 package com.luizafmartinez.lib;
 
-class Animal {    // Classe pai => SUPER classe
+abstract class Animal {  // Classe pai => SUPER classe,  abstrata
 
     String cor;
     int tamanho;
